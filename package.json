@@ -1,0 +1,18 @@
+{
+  "name": "gemini-api-demo",
+  "version": "1.0.0",
+  "description": "A simple demo of an AI-powered Node program using Gemini.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Blake <daniel@danielblake.dev>",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  }
+}
